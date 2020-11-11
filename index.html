@@ -1,12 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>11-11-20</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="main container">
+      <h1 class="main-title">Спасибо за регистрацию</h1>
+      <div class="main-block-email">
+        <p class="main-block-email__text">
+          Мы выслали Вам методичку, и через 5 минут она придет на
+          <span>Ваш e-meil</span>
+        </p>
+      </div>
+      <p class="main-text">
+        А если вы хотите заняться своим здоровьем уже сейчас,<br />
+        предлагаю вам приобрести мой мини-курс
+      </p>
+      <h2 class="main-title__second">Как выбрать магний?</h2>
+      <div class="video-wrapper">
+        <div class="video-block">
+          <div class="video-block__btn js-btn-video"></div>
+          <div class="video-block__video js-video-block">
+            <iframe
+              class="video js-video"
+              src="https://www.youtube.com/embed/i4JmTCp9W88"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <p class="video-text">Прямо сейчас</p>
+      </div>
+    </section>
+    <section class="offer container">
+      <h2 class="offer-title">
+        <span>Это разовое предложение</span>
+        <br />
+        Действует только на этой странице
+      </h2>
+      <div class="offer-block">
+        <div class="offer-block__item">
+          <p class="price-common">
+            Обычная цена <br />
+            <span>990 руб</span>
+          </p>
+        </div>
+        <div class="offer-block__item">
+          <p class="price-your">Ваша цена</p>
+          <span class="price">299 руб</span>
+          <div class="timer-wrapper">
+            <p class="timer-title">Ограниченное предложение доступно еще</p>
+            <div id="countdown" class="countdown timer">
+              <div class="countdown-number">
+                <span class="days countdown-time"></span>
+                <span class="countdown-text">Дни</span>
+              </div>
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+                <span class="countdown-text">Часы</span>
+              </div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+                <span class="countdown-text">Мин</span>
+              </div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+                <span class="countdown-text">Сек</span>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="price-btn">Смотреть лекцию за 299 грн</a>
+          <p class="text-botton">Доступ к лекции 30 дней</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer container">
+      <div class="footer-item">
+        <p class="footer-item__text">ИП Лебедева Диляра Ильгизовна</p>
+        <p class="footer-item__text">ИНН: 590201640202</p>
+        <p class="footer-item__text">ОГРНИП: 319169000016590</p>
+      </div>
+      <div class="footer-item">
+        <a
+          href="https://api.whatsapp.com/send?phone=79112651065"
+          class="footer-item__message"
+          >Задать вопрос тех.поддержке в WhatsApp</a
+        >
+        <div class="footer-item__list">
+          <p class="footer-item__text">© Д. И. Лебедева</p>
+          <a
+            href="https://gc.saxarvnorme.ru/oferta"
+            target="_blank"
+            class="footer-item__text"
+            >Публичная Оферта</a
+          >
+        </div>
+      </div>
+      <div class="footer-item">
+        <a
+          href="mailto:info@saxarvnorme.ru "
+          target="_blank"
+          class="footer-item__link"
+          >info@saxarvnorme.ru</a
+        >
+        <a
+          href="https://saxarvnorme.ru/"
+          target="_blank"
+          class="footer-item__link"
+          >saxarvnorme.ru</a
+        >
+      </div>
+    </footer>
+
+    <script src="js/video.js"></script>
+    <script src="js/timer.js"></script>
+  </body>
 </html>
