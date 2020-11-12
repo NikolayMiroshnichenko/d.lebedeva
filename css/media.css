@@ -55,64 +55,72 @@
   .footer-item__link {
     text-align: center;
   }
-
+  .modal {
+    width: 400px;
+  }
+}
 @media (max-width: 767px) {
-    br {
-        display: none;
-    }
-    .container {
-        width: 100%;
-    }
-    .main-title {
-        font-size: 40px;
-    }
-    .text-botton,
-    .timer-title,
-    .main-block-email__text {
-        font-size: 14px;
-    }
-    .price-btn,
-    .video-text,
-    .main-text {
-        font-size: 16px;
-    }
-    .video-block {
-        height: 180px;
-    }
-    .video-block__btn::before {
-        width: 130px;
-        height: 170px;
-    }
-    .video-block__btn::after {
-        width: 60px;
-        height: 60px;
-        left: 65%;
-    }
-    .offer-title {
-        font-size: 32px;
-    }
-    .offer-title span {
-        font-size: 20px;
-    }
-    .offer-block__item,
-    .ffer-block__item {
-        width: 100%;
-        margin: 0;
-    }
-    .price,
-    .price-your,
-    .price-common {
-        font-size: 22px;
-    }
-    .price-common span {
-        display: block;
-    }
-    .countdown-number {
-        width: 15%;
-    }
-    .footer-item__link,
-    .footer-item__message,
-    .footer-item__text {
-        font-size: 12px;
-    }
+  br {
+    display: none;
+  }
+  .container {
+    width: 100%;
+  }
+  .main-title {
+    font-size: 40px;
+  }
+  .text-botton,
+  .timer-title,
+  .main-block-email__text {
+    font-size: 14px;
+  }
+  .price-btn,
+  .video-text,
+  .main-text {
+    font-size: 16px;
+  }
+  .video-block {
+    height: 180px;
+  }
+  .video-block__btn::before {
+    width: 130px;
+    height: 170px;
+  }
+  .video-block__btn::after {
+    width: 60px;
+    height: 60px;
+    left: 65%;
+  }
+  .offer-title {
+    font-size: 32px;
+  }
+  .offer-title span {
+    font-size: 20px;
+  }
+  .offer-block__item,
+  .ffer-block__item {
+    width: 100%;
+    margin: 0;
+  }
+  .price,
+  .price-your,
+  .price-common {
+    font-size: 22px;
+  }
+  .price-common span {
+    display: block;
+  }
+  .countdown-number {
+    width: 15%;
+  }
+  .footer-item__link,
+  .footer-item__message,
+  .footer-item__text {
+    font-size: 12px;
+  }
+  .modal {
+    width: 90%;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
 }
