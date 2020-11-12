@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "AppetiteNew";
+  src: url("11015.ttf");
+  src: local("Appetite"), url("11015.ttf") format("truetype");
+  font-display: swap;
+}
