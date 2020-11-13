@@ -65,10 +65,15 @@ ul {
   font-weight: 500;
   margin-bottom: 40px;
 }
+.main-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .video-block {
   position: relative;
-  width: 740px;
-  height: 420px;
+  width: 520px;
+  height: 300px;
   margin: 0 auto;
   background-color: #ffffff;
   overflow: hidden;
@@ -96,8 +101,8 @@ ul {
 .video-block__btn::before {
   bottom: 0;
   left: 20px;
-  width: 300px;
-  height: 400px;
+  width: 220px;
+  height: 300px;
   background-image: url(../img/video/autor.png);
   background-position: bottom;
 }
@@ -139,11 +144,92 @@ ul {
   font-weight: 500;
   text-align: center;
   font-style: italic;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 30px;
 }
+.main-list {
+  width: 600px;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-list__item {
+  position: relative;
+  width: 280px;
+  margin: 0 10px;
+  padding: 20px 40px 20px 20px;
+  height: 140px;
+  margin-bottom: 20px;
+  background-color: #f1878a;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px 0px rgba(255, 0, 0, 0.35);
+  overflow: hidden;
+}
+.main-list__item p {
+  color: #ffffff;
+  margin: 0;
+}
+.main-list__item::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+}
+.main-list__item:nth-child(1)::before {
+  width: 35px;
+  height: 150px;
+  background-image: url(../img/list/1.png);
+}
+.main-list__item:nth-child(2)::before {
+  width: 65px;
+  height: 135px;
+  background-image: url(../img/list/2.png);
+}
+.main-list__item:nth-child(3)::before {
+  width: 80px;
+  height: 120px;
+  background-image: url(../img/list/3.png);
+}
+.main-list__item:nth-child(4)::before {
+  width: 70px;
+  height: 130px;
+  background-image: url(../img/list/4.png);
+}
+.main-list__item:nth-child(5)::before {
+  width: 70px;
+  height: 90px;
+  background-image: url(../img/list/5.png);
+}
+.main-list__item::after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  bottom: 10px;
+  width: 25px;
+  height: 40px;
+  background-image: url(../img/list/close.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.main-list__number {
+  position: absolute;
+  left: 30px;
+  bottom: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  font-style: italic;
+  margin: 0;
+  font-weight: bold;
+}
+
 .offer {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 .offer-title {
   text-align: center;
